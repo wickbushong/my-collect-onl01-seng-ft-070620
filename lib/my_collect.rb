@@ -5,5 +5,6 @@ def my_collect(arg)
     collection << yield(arg[i])
     i += 1
   end
+end
   collection
 end
